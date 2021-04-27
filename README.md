@@ -11,11 +11,9 @@ This is the code repository of HomeHealth project compatible with web app
 
 ## Running the app locally
 
-1. Install the react-native-cli - instructions [on the React Native website](https://facebook.github.io/react-native/docs/getting-started)
-2. [Install cocoapods](https://guides.cocoapods.org/using/getting-started.html)
-3. Instructions to setup ssh for bitbucket - [Setup ssh for GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-4. Install js dependencies by running `yarn install` in terminal.
-5. Run your project by running `yarn start`
+1. Instructions to setup ssh for bitbucket - [Setup ssh for GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+2. Install js dependencies by running `yarn install` in terminal.
+3. Run your project by running `yarn start`
 
 # Package - @crowdapps-developers/homehealth-common-feature
 
