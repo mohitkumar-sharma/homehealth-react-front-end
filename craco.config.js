@@ -11,7 +11,6 @@ module.exports = {
           oneOf.forEach(rule => {
             const pattern = /\.(js|mjs|jsx|ts|tsx)$/.toString();
             if (rule.include && rule.test.toString() === pattern) {
-              console.log(rule.test.toString(), rule.include, rule.loader);
               rule.include = [
                 ...include,
                 rule.include
