@@ -35,7 +35,22 @@ The bulk of the code is in the `src` directory.
 | src/App.tsx    | This is the entry point of app is wrapped in Redux Provider.                                     |
 | src/components | Lower level components, e.g. buttons, custom views and small components etc.                     |
 | src/pages      | Components representing entire screens within the app, where integration with redux would happen |
-| src/config     | App-wide config - things like colors, routes etc. Configuration of the redux store.              |
+| src/config     | App-wide config - things like env. Configuration of the redux store.                             |
 | src/assets     | All the assets of app. e.g. images, fonts, etc.                                                  |
 | src/types      | Types used in app screens, components, utils etc.                                                |
 | src/utils      | All business logic and commonly used functionality.                                              |
+
+# Redux
+
+Our typical redux setup would be done in `config/store.ts`. This would setup the redux store, add default middleware.
+
+We would then add the react-redux `Provider` to `app/App.tsx`. Root screen would be wrapped by `Provider` in `app/App.tsx`.
+
+Redux state (`Actions` and `Reducers`) would be managed in `app/states` for whole app.
+
+Packages needed to setup store:
+
+| package     | purpose                            |
+| ----------- | ---------------------------------- |
+| react-redux | to setup provider in `app/App.tsx` |
+| redux       | main redux package                 |
