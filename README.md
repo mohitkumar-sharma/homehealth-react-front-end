@@ -54,3 +54,8 @@ Packages needed to setup store:
 | ----------- | ---------------------------------- |
 | react-redux | to setup provider in `app/App.tsx` |
 | redux       | main redux package                 |
+
+# Release Build
+
+1. create build of your project by running `yarn build`
+2. Now upload your build content on server
